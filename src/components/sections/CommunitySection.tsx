@@ -90,7 +90,7 @@ export default function CommunitySection() {
                   <motion.a
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.98 }}
-                    href="https://chat.whatsapp.com/YOUR_INVITE_LINK"
+                    href="#"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center justify-center gap-3 px-8 py-4 bg-[#25D366] text-white rounded-full font-semibold text-base hover:bg-[#20BD5A] transition-colors duration-300 shadow-lg shadow-[#25D366]/20"

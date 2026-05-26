@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 
 const speakers = [
   { name: "Arjun Patel", role: "Founder, TechStartup", color: "bg-blue-200" },
@@ -45,7 +45,7 @@ function useCountdown(targetDate: Date) {
 }
 
 export default function FeaturedEventSection() {
-  const eventDate = new Date("2025-06-28T09:00:00+05:30");
+  const eventDate = useMemo(() => new Date("2025-06-28T09:00:00+05:30"), []);
   const { days, hours, minutes, seconds } = useCountdown(eventDate);
 
   return (

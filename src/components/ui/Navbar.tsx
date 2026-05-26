@@ -59,7 +59,7 @@ export default function Navbar() {
 
             <div className="hidden lg:flex items-center gap-3">
               <a
-                href="#events"
+                href="#featured"
                 className="text-sm font-medium px-5 py-2.5 rounded-full border border-black/10 hover:bg-black/5 transition-all duration-200"
               >
                 Explore Events
@@ -121,7 +121,7 @@ export default function Navbar() {
               ))}
               <div className="flex flex-col gap-3 mt-8 w-64">
                 <a
-                  href="#events"
+                  href="#featured"
                   onClick={() => setMobileOpen(false)}
                   className="text-center font-medium px-6 py-3 rounded-full border border-black/10 hover:bg-black/5 transition-all"
                 >
